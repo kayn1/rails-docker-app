@@ -5,9 +5,10 @@ RUN mkdir /app
 
 WORKDIR /app
 
-COPY Gemfile /app/Gemfile
-COPY Gemfile.lock /app/Gemfile.lock
+COPY Gemfile Gemfile.lock ./
 
 RUN bundle install
 
 COPY . /app
+
+CMD puma -C config/puma.rb
