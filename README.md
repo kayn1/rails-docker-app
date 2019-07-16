@@ -1,3 +1,3 @@
 # README
 
-Rails / Docker showcase for myslef
+Rails / Docker showcase
