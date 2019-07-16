@@ -1,3 +1,3 @@
 # README
 
-Rails / Docker showcase
+Rails (redis - sidekiq - postgres) / Docker 
